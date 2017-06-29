@@ -6,6 +6,7 @@ from xml.etree import ElementTree
 
 from suds import WebFault
 from suds.client import Client
+from suds.cache import NoCache
 
 
 WSDL_URL = 'http://sira.intecoingenieria.com/SWEstimacionParada.asmx?WSDL'
@@ -26,7 +27,7 @@ def get_stops():
 
 
 def get_stops_around(latitude=None, longitude=None):
-    client = Client(url=WSDL_URL)
+    client = Client(url=WSDL_URL, cache=NoCache())
 
     factory = client.factory.create('tns:BuscarParadas')
     factory.Latitud = latitude
@@ -54,7 +55,7 @@ def get_stops_around(latitude=None, longitude=None):
 
 
 def get_stop(stop_number):
-    client = Client(url=WSDL_URL)
+    client = Client(url=WSDL_URL, cache=NoCache())
 
     factory = client.factory.create('tns:BuscarParadasIdParada')
     factory.IdParada = stop_number
@@ -80,7 +81,7 @@ def get_stop(stop_number):
 
 
 def get_stop_estimates(stop_number):
-    client = Client(url=WSDL_URL)
+    client = Client(url=WSDL_URL, cache=NoCache())
 
     factory = client.factory.create('tns:EstimacionParadaIdParada')
     factory.IdParada = stop_number
