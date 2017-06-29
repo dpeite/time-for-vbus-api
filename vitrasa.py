@@ -35,7 +35,9 @@ def get_stops_around(latitude=None, longitude=None):
     try:
         response = client.service.BuscarParadas(factory)
     except WebFault:
-        raise Error
+        raise Error("Se ha producido un error al procesar los datos")
+    if not response:
+        raise Error("No se encuentras paradas cercanas")
 
     response_encoded = response.encode('utf-8')
 
@@ -60,7 +62,7 @@ def get_stop(stop_number):
     try:
         response = client.service.BuscarParadasIdParada(factory)
     except WebFault:
-        raise Error
+        raise Error("No existe la parada introducida")
 
     response_encoded = response.encode('utf-8')
 
@@ -86,7 +88,7 @@ def get_stop_estimates(stop_number):
     try:
         response = client.service.EstimacionParadaIdParada(factory)
     except WebFault:
-        raise Error
+        raise Error("La parada introducida no existe")
 
     response_encoded = response.encode('utf-8')
 
