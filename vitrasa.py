@@ -166,8 +166,10 @@ BUS_FIXED_ROUTES = {
     u'MUIÃ‘OS - SAIANS': u'MUIÑOS - SAIANS',
     u'MUIÃ‘OS': u'MUIÑOS',
     u'P. ESPAÃ‘A - P. AMERICA': u'P. ESPAÑA - P. AMERICA',
+    u'P. ESPAÃ‘A - G. ESPINO': u'P. ESPAÑA - G. ESPINO',
     u'PLAZA ESPAÃ‘A': u'PLAZA ESPAÑA',
     u'PRAZA AMÃ‰RICA': u'PRAZA AMÉRICA',
     u'PRAZA ESPAÃ‘A': u'PRAZA ESPAÑA',
+    u'PRAZA DE ESPAÃ‘A': u'PRAZA DE ESPAÑA',
     u'RÃOS': u'RÍOS'
 }
