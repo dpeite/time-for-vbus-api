@@ -173,5 +173,6 @@ BUS_FIXED_ROUTES = {
     u'PRAZA AMÃ‰RICA': u'PRAZA AMÉRICA',
     u'PRAZA ESPAÃ‘A': u'PRAZA ESPAÑA',
     u'PRAZA DE ESPAÃ‘A': u'PRAZA DE ESPAÑA',
-    u'RÃOS': u'RÍOS'
+    u'RÃOS': u'RÍOS',
+    u'PORRIÃ‘O - COIA': u'PORRIÑO - COIA'
 }
