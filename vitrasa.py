@@ -174,5 +174,6 @@ BUS_FIXED_ROUTES = {
     u'PRAZA ESPAÃ‘A': u'PRAZA ESPAÑA',
     u'PRAZA DE ESPAÃ‘A': u'PRAZA DE ESPAÑA',
     u'RÃOS': u'RÍOS',
-    u'PORRIÃ‘O - COIA': u'PORRIÑO - COIA'
+    u'PORRIÃ‘O - COIA': u'PORRIÑO - COIA',
+    u'Avda. Castrelos, 206 (PereirÃ³)' : u'Avda. Castrelos, 206 (Pereiró)'
 }
