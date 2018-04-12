@@ -170,8 +170,13 @@ BUS_FIXED_ROUTES = {
     u'P. ESPAÃ‘A - G. ESPINO': u'P. ESPAÑA - G. ESPINO',
     u'PLAZA ESPAÃ‘A': u'PLAZA ESPAÑA',
     u'PRAZA AMÃ‰RICA': u'PRAZA AMÉRICA',
+    u'PRAZA AMÃ‰RICA,1' : u'PRAZA AMÉRICA,1',
     u'PRAZA ESPAÃ‘A': u'PRAZA ESPAÑA',
+    u'P. ESPAÃ‘A' : u'P. ESPAÃ‘A',
     u'PRAZA DE ESPAÃ‘A': u'PRAZA DE ESPAÑA',
+    u'PRAZA DE ESPAÃ‘A (Kiosco)' : u'PRAZA DE ESPAÑA (Kiosco)',
+    u'Gran VÃ-a (Esq. Avda Madrid)' : u'Gran Vía (Esq. Avda Madrid)',
+    u'Gran VÃ-a, 182' : u'Gran Vía, 182',
     u'RÃOS': u'RÍOS',
     u'PORRIÃ‘O - COIA': u'PORRIÑO - COIA',
     u'Avda. Castrelos, 206 (PereirÃ³)' : u'Avda. Castrelos, 206 (Pereiró)'
